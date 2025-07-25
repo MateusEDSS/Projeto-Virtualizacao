@@ -15,12 +15,12 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: mateusl3/frontend:v1
+        image: mateusl3/frontend:v4
         ports:
         - containerPort: 80
         env:
-        - name: REACT_APP_API_URL
-          value: "http://backend:5000"
+        - name: VITE_API_URL
+          value: "/api"
 ---
 apiVersion: v1
 kind: Service
