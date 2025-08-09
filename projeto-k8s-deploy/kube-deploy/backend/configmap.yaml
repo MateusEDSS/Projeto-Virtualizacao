@@ -4,7 +4,15 @@ metadata:
   name: backend-config
   namespace: app
 data:
-  DB_HOST: postgres.db
+  #DB_HOST: postgres.db.svc.cluster.local
+  #DB_PORT: "5432"
+  #DB_NAME: mydb
+  #REACT_APP_API_URL: "http://backend:5000"
+  DB_HOST: "postgres.database.svc.cluster.local"
   DB_PORT: "5432"
-  DB_NAME: mydb
-  REACT_APP_API_URL: "http://backend:5000"
+  DB_NAME: "mensagensdb"
+  DB_USER: "postgres"
+  DB_PASSWORD: "postgres"
+  API_HOST: "0.0.0.0"
+  API_PORT: "5000"
+
