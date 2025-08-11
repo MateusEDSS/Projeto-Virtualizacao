@@ -1,3 +1,4 @@
+Alunos: Mateus Eduardo e Ramon Lucas
 # 🚀 Deploy do Projeto com Kubernetes + KIND
 
 Este projeto demonstra como criar um cluster **Kubernetes** local utilizando **Kind**, configurar **Ingress NGINX** e implantar uma aplicação composta por **Frontend**, **Backend** e **Banco de Dados PostgreSQL**.
